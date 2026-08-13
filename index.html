@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uzair Ahmad - Full-Stack Web Developer. Building modern, scalable web applications with clean code and responsive design.">
+    <meta name="theme-color" content="#0a0e27">
+    <meta name="keywords" content="Full-Stack Developer, Web Developer, JavaScript, React, Node.js, MongoDB">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Uzair Ahmad - Full-Stack Web Developer">
+    <meta property="og:description" content="Building Digital Experiences That Actually Work. Professional portfolio of a Full-Stack Web Developer.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    
+    <title>Uzair Ahmad - Full-Stack Web Developer | Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text x='50%' y='50%' font-size='20' dy='.3em' text-anchor='middle' fill='%236366f1'>U</text></svg>">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="#home" class="logo">Uzair Ahmad</a>
+            </div>
+            
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-bg"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="typing-text">Building Digital Experiences That Actually Work.</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Full-Stack Web Developer crafting modern, scalable, and user-focused web applications. 
+                    From responsive frontends to robust backends, I transform ideas into functional digital solutions.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="https://github.com/uzairburki-dev" class="social-link" aria-label="GitHub" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/uzair-burki" class="social-link" aria-label="LinkedIn" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:uzairburki41@email.com" class="social-link" aria-label="Email" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="code-dot red"></span>
+                        <span class="code-dot yellow"></span>
+                        <span class="code-dot green"></span>
+                    </div>
+                    <pre><code>&lt;FullStackDeveloper&gt;
+  &lt;expertise&gt;
+    JavaScript | Node.js |
+    React | MongoDB
+  &lt;/expertise&gt;
+  &lt;passion&gt;
+    Clean Code | UX Design
+  &lt;/passion&gt;
+  &lt;status&gt;
+    Building amazing things
+  &lt;/status&gt;
+&lt;/FullStackDeveloper&gt;</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Who I am and what I do</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Full-Stack Web Developer dedicated to creating functional, modern web applications 
+                        that solve real problems. I believe in the power of clean code, intuitive design, and continuous learning.
+                    </p>
+                    <p>
+                        With expertise across the entire development stack—from HTML and CSS to Node.js and MongoDB—I build 
+                        scalable applications that balance performance with user experience. Every line of code I write is 
+                        intentional, maintainable, and focused on delivering value.
+                    </p>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">11</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Still Learning</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedicated</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Tools and languages I master</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Authentication</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Exploring New Technologies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my best work</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image pro1">
+                        <div class="project-image-placeholder">
+                            <svg viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                
+                                <rect width="300" height="200" fill="url(#grad1)"/>
+                                <defs>
+                                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.1" />
+                                        <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Airbnb Clone (Guided Project)</h3>
+                        <p class="project-description">
+                           A modern Airbnb-inspired stay platform with smooth browsing, category filters, responsive design, and a clean user-friendly experience.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Express</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/uzairburki-dev/wanderLust.git" class="project-btn" target="_blank">GitHub</a>
+                            <a href="https://wander-lust-steel-six.vercel.app/listings" class="project-btn" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image pro2">
+                        <div class="project-image-placeholder">
+                            <svg viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="url(#grad2)"/>
+                                <defs>
+                                    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.1" />
+                                        <stop offset="100%" style="stop-color:#ec4899;stop-opacity:0.1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">My Portfolio (Built Myself)</h3>
+                        <p class="project-description">
+                            A modern developer portfolio showcasing my skills, projects, and experience through a clean, responsive, and user-friendly design.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML &amp; CSS</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Node</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/uzairburki-dev/portfolio.git" class="project-btn" target="_blank">GitHub</a>
+                            <a href="https://portfolio-pk3ag3zsw-uzairburki-devs-projects.vercel.app" class="project-btn" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image pro3">
+                        <div class="project-image-placeholder">
+                            <svg viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="url(#grad3)"/>
+                                <defs>
+                                    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#ec4899;stop-opacity:0.1" />
+                                        <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Game (Guided Project)</h3>
+                        <p class="project-description">
+                            An interactive memory game built with JavaScript, featuring dynamic sequences, user interaction, and engaging game logic.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML &amp; CSS</span>
+                        </div>
+                        <br>
+                        <div class="project-links">
+                            <a href="https://github.com/uzairburki-dev/simon-says-game.git" class="project-btn">GitHub</a>
+                            <a href="https://simon-says-game-one-lac.vercel.app/" class="project-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image pro4">
+                        <div class="project-image-placeholder">
+                            <svg viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="url(#grad4)"/>
+                                <defs>
+                                    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.1" />
+                                        <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio (AI Supported)</h3>
+                        <p class="project-description">
+                           A personal portfolio built with AI assistance, combining my own ideas, development skills, and design choices into a clean, responsive experience.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML &amp; CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" class="project-btn">GitHub</a>
+                            <a href="#" class="project-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="journey">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Journey</h2>
+                <p class="section-subtitle">How I became a developer</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Began Learning to Code</h3>
+                        <p class="timeline-date">2023</p>
+                        <p class="timeline-description">
+                            Started my coding journey with HTML and CSS, building my first websites and discovering my passion for creating clean, functional web experiences.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Mastered JavaScript & Frontend</h3>
+                        <p class="timeline-date">2023</p>
+                        <p class="timeline-description">
+                            Moved beyond the basics, diving deeper into JavaScript and DOM manipulation while turning ideas into interactive, real-world web experiences.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Entered Backend Development</h3>
+                        <p class="timeline-date">2024</p>
+                        <p class="timeline-description">
+                            Stepped into backend development with Node.js, Express, and MongoDB, learning to build complete web applications from server-side logic to the user interface.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Building Professional Projects</h3>
+                        <p class="timeline-date">2025</p>
+                        <p class="timeline-description">
+                            Built professional websites through personal and real-world projects, focusing on clean code, responsive design, performance, and a smooth user experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Work With Me</h2>
+                <p class="section-subtitle">What I bring to the table</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Clean, Maintainable Code</h3>
+                    <p class="benefit-text">
+                        I write code that's not just functional, but also clean, well-documented, and easy to maintain—
+                        following industry best practices and design patterns.
+                    </p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Responsive Design</h3>
+                    <p class="benefit-text">
+                        My applications look and function perfectly on all devices—from mobile phones 
+                        to large desktop screens.
+                    </p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Full-Stack Development</h3>
+                    <p class="benefit-text">
+                        I handle everything from frontend design to backend architecture, 
+                        creating cohesive, end-to-end solutions.
+                    </p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Problem Solving</h3>
+                    <p class="benefit-text">
+                        I approach challenges systematically, breaking complex problems into manageable 
+                        solutions with elegant implementations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">I'd love to hear from you. Let's talk!</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <form class="contact-form" id="contactForm" action="/api/contact" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required placeholder="your@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required placeholder="What's this about?">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-input form-textarea" rows="5" required placeholder="Your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                    <p class="form-note">I'll get back to you as soon as possible.</p>
+                </form>
+
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">Email</h3>
+                        <a href="mailto:uzair@email.com" class="contact-link">uzairburki41@email.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">GitHub</h3>
+                        <a href="https://github.com/uzairburki-dev" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub Profile</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">LinkedIn</h3>
+                        <a href="https://linkedin.com/in/uzair-burki" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn Profile</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">Location</h3>
+                        <p class="contact-location">South Wazeristan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Uzair Ahmad</h3>
+                    <p class="footer-subtitle">Full-Stack Web Developer</p>
+                    <p class="footer-subtitle" style="color: var(--text-tertiary); margin-top: 1rem; font-size: 0.9rem; line-height: 1.6;">
+                        Transforming ideas into digital solutions. Passionate about clean code and user-centric design.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 1.5rem; font-weight: 600;">Let's Connect</h4>
+                    <div class="footer-socials">
+                        <a href="https://github.com/uzairburki-dev" target="_blank" class="footer-social" aria-label="GitHub" title="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/uzair-burki" traget="_black" class="footer-social" aria-label="LinkedIn" title="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:uzairburki41@email.com" target="_blank" class="footer-social" aria-label="Email" title="Email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" stroke="none" stroke-width="0"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Uzair Ahmad. All rights reserved.</p>
+                <p class="footer-credit">Built with HTML5, CSS3 & Vanilla JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top" title="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7 14l5-5 5 5z"/>
+        </svg>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
