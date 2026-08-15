@@ -3,14 +3,14 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 
 const app = express();
-const PORT = 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve portfolio files
+// Serve static files
 app.use(express.static(__dirname));
 
+// Home page
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html");
 });
@@ -67,6 +67,4 @@ app.post("/api/contact", async (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`Portfolio running at http://localhost:${PORT}`);
-});
+module.exports = app;
