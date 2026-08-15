@@ -8,15 +8,12 @@ const PORT = 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.set("view engine", "ejs");
-app.use(express.static("public"));
-
 // Serve portfolio files
 app.use(express.static(__dirname));
 
-app.get("/", (req,res)=>{
-    res.render("index");
-})
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
+});
 
 // Email transporter
 const transporter = nodemailer.createTransport({
