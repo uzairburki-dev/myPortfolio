@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
@@ -7,12 +8,16 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static files
-app.use(express.static(__dirname));
+// EJS setup
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
 
-// Home page
+// Public folder
+app.use(express.static(path.join(__dirname, "public")));
+
+// Home
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/index.html");
+    res.render("index");
 });
 
 // Email transporter
@@ -67,4 +72,8 @@ app.post("/api/contact", async (req, res) => {
     }
 });
 
-module.exports = app;
+const PORT = 8080;
+
+app.listen(PORT, () => {
+    console.log(`Portfolio running at http://localhost:${PORT}`);
+});
