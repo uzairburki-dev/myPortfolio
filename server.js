@@ -11,9 +11,10 @@ app.use(express.urlencoded({ extended: true }));
 // Serve portfolio files
 app.use(express.static(__dirname));
 
-app.get("/", (req,res)=>{
-    res.render("index");
-})
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
+});
+
 // Email transporter
 const transporter = nodemailer.createTransport({
     service: "gmail",
