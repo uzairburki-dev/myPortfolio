@@ -758,25 +758,25 @@ a:hover {
 }
 
 .pro1 {
-    background-image: url(../../img/pro1.png);
+    background-image: url("https://res.cloudinary.com/dblvkehf4/image/upload/v1787171263/pro1.png");
     background-size: cover;
     background-position: center;
 }
 
 .pro2 {
-    background-image: url(../../img/pro2.png);
+    background-image: url(https://res.cloudinary.com/dblvkehf4/image/upload/v1787171264/pro2.png);
     background-size: cover;
     /* background-position: center; */
 }
 
 .pro3 {
-    background-image: url(../../img/pro3.png);
+    background-image: url("https://res.cloudinary.com/dblvkehf4/image/upload/v1787171263/pro3.png");
     background-size: cover;
     background-position: center;
 }
 
 .pro4 {
-    background-image: url(../../img/pro4.png);
+    background-image: url("https://res.cloudinary.com/dblvkehf4/image/upload/v1787171263/pro4.png");
     background-size: cover;
     /* background-position: center; */
 }
